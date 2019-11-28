@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+    <Item>
+        <Name>SPID</Name>
+        <TableColumn>SP_ID</TableColumn>
+    </Item>
+    <Item>
+        <Name>Item Tag</Name>
+        <TableColumn>ItemTag</TableColumn>
+    </Item>
+    <Item>
+        <Name>Nominal Diameter</Name>
+        <TableColumn>NominalDiameter</TableColumn>
+    </Item>
+    <Item>
+        <Name>Tag Sequence</Name>
+        <TableColumn>TagSequenceNo</TableColumn>
+    </Item>
+    <Item>
+        <Name>Fluid Code</Name>
+        <TableColumn>OperFluidCode</TableColumn>
+    </Item>
+    <Item>
+        <Name>PMC</Name>
+        <TableColumn>PipingMaterialsClass</TableColumn>
+    </Item>
+    <Item>
+        <Name>Insulation Purpose</Name>
+        <TableColumn>InsulPurpose</TableColumn>
+    </Item>
+    <Item>
+        <Name>Insulation Thickness</Name>
+        <TableColumn>InsulThick</TableColumn>
+    </Item>
+    <Item>
+        <Name>Heat Trace Medium</Name>
+        <TableColumn>HTraceMedium</TableColumn>
+    </Item>
+    <Item>
+        <Name>Flow Direction</Name>
+        <TableColumn>FlowDirection</TableColumn>
+    </Item>
+    <Item>
+        <Name>Corrosion Allowance</Name>
+        <TableColumn>CorrosionAllowance</TableColumn>
+    </Item>
+    <Item1>
+        <Name>Fabrication Category</Name>
+        <TableColumn>FabricationCategory</TableColumn>
+    </Item1>
+  <Process>
+    <Case>Oper.</Case>
+    <Quality>Maximum</Quality>
+    <Attribute>Temperature</Attribute>
+    <Name>Maximum Operating Temperature</Name>
+  </Process>
+<Process>
+    <Case>Oper.</Case>
+    <Quality>Minimum</Quality>
+    <Attribute>Temperature</Attribute>
+    <Name>Operating Minimum Temperature</Name>
+  </Process>
+<Process>
+    <Case>Oper.</Case>
+    <Quality>Normal</Quality>
+    <Attribute>Temperature</Attribute>
+    <Name>Operating Normal Temperature</Name>
+  </Process>
+
+<Process>
+    <Case>Design</Case>
+    <Quality>Maximum</Quality>
+    <Attribute>Temperature</Attribute>
+    <Name>Maximum Design Temperature</Name>
+  </Process>
+<Process>
+    <Case>Design</Case>
+    <Quality>Minimum</Quality>
+    <Attribute>Temperature</Attribute>
+    <Name>Design Minimum Temperature</Name>
+  </Process>
+<Process>
+    <Case>Design</Case>
+    <Quality>Normal</Quality>
+    <Attribute>Temperature</Attribute>
+    <Name>Design Normal Temperature</Name>
+  </Process>
+<Process>
+    <Case>Design</Case>
+    <Quality>Normal</Quality>
+    <Attribute>Temperature</Attribute>
+    <Name>Design Normal Temperature</Name>
+  </Process>
+  <Control>
+    <Case>Control</Case>
+    <Quality>Normal</Quality>
+    <Attribute>Pressure</Attribute>
+    <Name>Control Normal Pressure</Name>
+  </Control>
+</Root>
